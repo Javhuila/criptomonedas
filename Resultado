@@ -1,0 +1,19 @@
+import React from 'react';
+
+const Resultado = ({resultados}) => {
+    const {PRICE, HIGHDAY, LOWDAY, CHANGEPCT24HOUR, IMAGEURL, LASTUPDATE} = resultados;
+  return (
+    <div className='container001'>
+        <img src={`https://cryptocompare.com/${IMAGEURL}`} alt="tipocripto"/>
+        <div>
+        <p className='titulo004'>El precio es de :<span>{PRICE}</span></p>
+        <p className='titulo003'>Precio más alto del día :<span>{HIGHDAY}</span></p>
+        <p className='titulo003'>Precio más bajo del día :<span>{LOWDAY}</span></p>
+        <p className='titulo003'>Variacion ultimas 24 horas :<span>{CHANGEPCT24HOUR}</span></p>
+        <p className='titulo003'>Ultima Actualizacion :<span>{LASTUPDATE}</span></p>
+        </div>
+    </div>
+  )
+}
+
+export default Resultado
