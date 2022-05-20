@@ -1,0 +1,80 @@
+.fondo001{
+  background: rgba(235,81,22,0.65);
+  padding-bottom: 24px;
+}
+
+.titulo001{
+  color: white;
+}
+
+.input001{
+  background-color: #9497FF;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  color: #FFF;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: background-color .3s ease;
+}
+
+.input001:hover{
+  background-color: #7A7DFE;
+  cursor: pointer;
+}
+
+.imgcrypto {
+  position:absolute;
+  margin: 140px 100px;
+  width: 600px;
+  height: 360px;
+}
+
+.label001{
+  color: #FFF;
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.select001{
+  width: 100%;
+  font-size: 18px;
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.error001{
+  background-color: #B7322C;
+  color: white;
+  margin: 20px;
+  padding: 15px;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+.container001{
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.titulo003{
+  font-size: 18px;
+}
+
+.titulo004{
+  font-size: 30px;
+}
+
+.titulo003 > span{
+  font-size: 18px;
+}
