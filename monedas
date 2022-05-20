@@ -1,0 +1,43 @@
+const monedas = [
+    { id: 'USD', nombre: 'Dolar de Estados Unidos' },
+    { id: 'MXN', nombre: 'Peso Mexicano' },
+    { id: 'EUR', nombre: 'Euro'},
+    { id: 'BHD', nombre: 'Dinar bahreiní'},
+    { id: 'BOB', nombre: 'Boliviano Bolivia' },
+    { id: 'BRL', nombre: 'Real brasileño' },
+    { id: 'ARS', nombre: 'Peso argentino' },
+    { id: 'COP', nombre: 'Peso Colombiano' },
+    { id: 'SAR', nombre: 'Rial saudí' },
+    { id: 'DZD', nombre: 'Dinar argelino' },
+    { id: 'AUD', nombre: 'Dolar Australiano' },
+    { id: 'AZM', nombre: 'Manat azerbaiyano' },
+    { id: 'BDT', nombre: 'Taka'},
+    { id: 'BBD', nombre: 'Dolar de Barbados' },
+    { id: 'BAM', nombre: 'Marco bosnio' },
+    { id: 'BND', nombre: 'Dolar de Brunei' },
+    { id: 'BNG', nombre: 'Lev búlgaro' },
+    { id: 'CAD', nombre: 'Dolar canadiense' },
+    { id: 'QAR', nombre: 'Rial qatarí' },
+    { id: 'CLP', nombre: 'Peso chileno' },
+    { id: 'CNY', nombre: 'Yuan Chino' },
+    { id: 'KRW', nombre: 'Won surcoreano' },
+    { id: 'CRC', nombre: 'Colón costarricense' },
+    { id: 'HRK', nombre: 'Kuna croata' },
+    { id: 'DKK', nombre: 'Corona danessa' },
+    { id: 'EGP', nombre: 'Libra egipcia' },
+    { id: 'JPY', nombre: 'Yen' },
+    { id: 'VEF', nombre: 'Bolívar fuerte de Venezuela' },
+    { id: 'SEK', nombre: 'Corona sueca' },
+    { id: 'THB', nombre: 'Baht tailandes' },
+    { id: 'UAH', nombre: 'Grivna ucraniana' },
+    { id: 'PLN', nombre: 'Zloty polaco' },
+    { id: 'PEN', nombre: 'Nuevo sol peruano' },
+    { id: 'RUB', nombre: 'Rublo ruso' },
+    { id: 'NIO', nombre: 'Córdoba nicaragüense' },
+    ]
+
+    export {
+        monedas
+    }
+
+    //https://www.globocambio.com.mx/monedas-del-mundo
