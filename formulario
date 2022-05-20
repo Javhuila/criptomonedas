@@ -1,5 +1,5 @@
 import React,{ useEffect, useState } from 'react';
-import useSelectMonedas from '../Example_two/hook/useSelectMonedas';
+import useSelectMonedas from '../Nombrecarpetaproyecto/hook/useSelectMonedas';
 import { monedas } from './data/monedas';
 
     function Formulario({setMonedas}) {
